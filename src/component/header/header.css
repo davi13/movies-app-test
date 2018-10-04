@@ -1,0 +1,19 @@
+#header{
+    display: flex;
+    flex-direction: row;
+    background: #000000;
+    color: #FFFFFF;
+}
+
+.header-title{
+    font-family: 'Titan One', cursive, sans-serif;
+    padding-left: 10px;
+    font-weight: 200; 
+
+}
+
+#select-category{
+    position: absolute;
+    right: 0.8rem;
+    top: 1.4rem;
+}

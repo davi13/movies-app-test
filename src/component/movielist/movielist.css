@@ -1,0 +1,69 @@
+.card{
+    width: 20%;
+    border: 1px solid #DFDFDF; 
+    padding-bottom: 30px;
+    font-size: 10px;
+}
+.title{
+    
+    border-bottom: 0.1px solid #DFDFDF;
+    
+}
+.title h6{
+    padding: 10px;
+    margin: 0px;
+    font-size:  0.6rem;
+    font-weight: 800;
+    text-align: center;
+    line-height: .5;
+    height: 10px;
+}
+.category{
+    padding: 10px;
+    margin-bottom: 10px
+}
+
+.likedislike{
+    text-align: center;
+}
+
+.card span{
+    padding: 10px;
+}
+
+span .iconup, span .icondown, span .trash{
+    cursor: pointer;
+}
+.delete{
+    text-align: center;
+}
+
+/*RESPONSIVE*/
+@media(max-width: 800px){
+    .card{
+        width: 40%;
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    
+}
+@media(max-width: 500px){
+    .card{
+        width: 40%; 
+        font-size: 8px;
+        margin-bottom: 10px;
+    }
+    .card span{
+        padding: 5px;
+    }
+
+    .title h6{
+        padding: 10px;
+        margin: 0px;
+        font-size:  0.4rem;
+        font-weight: 800;
+        text-align: center;
+        line-height: .5;
+        height: 10px;
+    }
+}
